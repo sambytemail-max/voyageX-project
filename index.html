@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VoyageX Travels</title>
+  <link rel="stylesheet" href="destination.css">
+
+  <style>
+    .navbar {
+      Position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #023047;
+    }
+
+    .logo-container img {
+      height: 60px;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+
+    <div class="logo-container">
+      <img src="assets\voyage_travels.png" alt="logo">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destination.html">Destinations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Explore The World With Us ✈️</h2>
+      <p>Your adventure starts here.</p>
+
+      <button id="openModal">Book Now</button>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+      <h3>Maldives</h3>
+      <p>Crystal clear beaches and luxury resorts.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="">
+      <h3>Paris</h3>
+      <p>Experience the city of lights and romance.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c" alt="">
+      <h3>Dubai</h3>
+      <p>Luxury lifestyle and futuristic vibes.</p>
+    </div>
+
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+
+      <h2>Booking Successful 🎉</h2>
+      <p>Our travel agent will contact you shortly.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer style="color:rgb(85, 91, 126); text-align:center; padding:24px; font-size:18px;">
+  © 2026 VoyageX • Explore the world, one journey at a time.
+</footer>
+</body>
+</html>
